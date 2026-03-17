@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Unsaid: A Mobile Museum</title>
+    <style>
+        /* General Aesthetic */
+        body {
+            background-color: #F0E0D0; /* Warm, sand-like background */
+            color: #6C0000; /* Dark red text */
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Welcome Banner */
+        .banner {
+            width: 100%;
+            background-color: #6C0000;
+            color: #F0E0D0;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .banner h1 {
+            font-size: 3em;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .banner p {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+
+        /* Museum Content Container */
+        .museum-container {
+            max-width: 900px;
+            width: 90%;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #6C0000;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        /* Interactive Exhibit List */
+        .exhibit-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .exhibit-item {
+            background: rgba(255, 255, 255, 0.3);
+            border: 1px solid #6C0000;
+            padding: 20px;
+            border-radius: 4px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        /* Zoom In/Out Hover Effect */
+        .exhibit-item:hover {
+            transform: scale(1.08); /* Zoom in effect */
+            box-shadow: 0 10px 20px rgba(108, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        .exhibit-item a {
+            text-decoration: none;
+            color: #6C0000;
+            display: block;
+            height: 100%;
+        }
+
+        .exhibit-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .exhibit-subtitle {
+            font-size: 0.9em;
+            font-style: italic;
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.8em;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="banner">
+        <h1>The Unsaid</h1>
+        <p>Decoding Earth’s Legacy for Resilient Living & Design</p>
+    </header>
+
+    <main class="museum-container">
+        <h2>The Living Dictionary: 13 Wings of Wisdom</h2>
+
+        <ul class="exhibit-list">
+            <li class="exhibit-item"><a href="exhibit1.html"><span class="exhibit-title">Unified Resilience</span><span class="exhibit-subtitle">(The Bifid Leaf)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit2.html"><span class="exhibit-title">Deep Intentionality</span><span class="exhibit-subtitle">(The Coco de Mer)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit3.html"><span class="exhibit-title">Sustainable Support</span><span class="exhibit-subtitle">(The Coconut Palm)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit4.html"><span class="exhibit-title">Strategic Shrinking</span><span class="exhibit-subtitle">(The Withered Leaf)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit5.html"><span class="exhibit-title">Intensive Commitment</span><span class="exhibit-subtitle">(The Root Mind)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit6.html"><span class="exhibit-title">Internal Alignment</span><span class="exhibit-subtitle">(The Double Jasmine)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit7.html"><span class="exhibit-title">Purposeful Refinement</span><span class="exhibit-subtitle">(The Mango King)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit8.html"><span class="exhibit-title">Transparent Integration</span><span class="exhibit-subtitle">(The Breathing Leaf)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit9.html"><span class="exhibit-title">Wise Constraint</span><span class="exhibit-subtitle">(The Majesty of the Boundary)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit10.html"><span class="exhibit-title">Persistent Legacy</span><span class="exhibit-subtitle">(Natural Intelligence)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit11.html"><span class="exhibit-title">Zero Hypocrisy</span><span class="exhibit-subtitle">(Nature’s Operating System)</span></a></li>
+            <li class="exhibit-item"><a href="exhibit12.html"><span class="exhibit-title">Flexible Strength</span><span class="exhibit-subtitle">(The Mini-Skyscraper)</span></a></li>
+            <li class="exhibit-item"><a href="real progress.html"><span class="exhibit-title">Robust Validation</span><span class="exhibit-subtitle">(The Defined Runway)</span></a></li>
+            <li class="exhibit-item"><a href="bitter melon.html"><span class="exhibit-title">The Dehiscence of Purpose</span><span class="exhibit-subtitle">(The Defined Runway)</span></a></li>
+<li class="exhibit-item"><a href="how far is enough.html"><span class="exhibit-title">The Compass of Stability</span><span class="exhibit-subtitle">(The Defined Runway)</span></a></li>
+        
+
+</ul>
+    </main>
+
+<section style="margin-top: 60px; padding: 40px; border-top: 1px solid #6C0000; width: 100%; max-width: 600px;">
+        <h3 style="font-size: 1.4em; margin-bottom: 15px;">Connect with the Observatory</h3>
+        <p style="font-size: 1em; margin-bottom: 25px; opacity: 0.9;">
+            Whether you are a fellow observer of the natural world or a leader seeking a "Defined Runway" for your next endeavor, I welcome your reflections.
+        </p>
+        <a href="mailto:gskg02@gmail.com?subject=Reflection from the Mobile Museum" 
+           style="background-color: #6C0000; color: #F0E0D0; padding: 15px 30px; text-decoration: none; font-weight: bold; border-radius: 4px; display: inline-block; transition: background 0.3s ease;">
+           Contact the Curator
+        </a>
+    </section>
+
+    <footer>
+        A co-creation of an Author assisted by AI. Architecture determines resilience.
+    </footer>
+
+</body>
+</html>
