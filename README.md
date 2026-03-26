@@ -64,7 +64,7 @@ Curator: [Siva/gskg02@gmail.com]
 
 
 
-\### \*\*"A RECYCLABLE, REUSABLE, REDUCABLE and a SUSTAINABLE digital writing with humane thinking."\*\*
+**\### \*\*"A RECYCLABLE, REUSABLE, REDUCABLE and a SUSTAINABLE digital writing with humane thinking."\*\***
 
 
 
