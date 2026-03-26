@@ -52,9 +52,11 @@ I invite you to step into a human-AI co-creation designed to help the busy minds
 
 
 
-Interested to Explore?
+Interested to Share your thoughts/suggestions, please...?
 
-> \*\*\[Visit the Works: ENTER INSIDE THE UNSAID LENS](https://gskg02-values.github.io/THE-UNSAID-LENS/)\*\*
+> ✉️ Feedback and reflections are welcome as we continue to fine-tune.
+
+Curator: [Siva/gskg02@gmail.com]
 
 
 
